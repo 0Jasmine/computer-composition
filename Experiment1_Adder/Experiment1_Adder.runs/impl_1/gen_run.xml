@@ -2,13 +2,13 @@
 <GenRun Id="impl_1" LaunchPart="xc7a200tfbg676-2" LaunchTime="1678881409">
   <File Type="PLACE-DCP" Name="adder_display_placed.dcp"/>
   <File Type="PA-DCP" Name="adder_display.dcp"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="adder_display_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="adder_display_timing_summary_init.rpt"/>
   <File Type="ROUTE-PWR-RPX" Name="adder_display_power_routed.rpx"/>
   <File Type="PA-TCL" Name="adder_display.tcl"/>
-  <File Type="OPT-HWDEF" Name="adder_display.hwdef"/>
+  <File Type="INIT-TIMING" Name="adder_display_timing_summary_init.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="adder_display_methodology_drc_opted.rpt"/>
   <File Type="RDI-RDI" Name="adder_display.vdi"/>
   <File Type="OPT-DCP" Name="adder_display_opt.dcp"/>
+  <File Type="OPT-HWDEF" Name="adder_display.hwdef"/>
   <File Type="OPT-DRC" Name="adder_display_drc_opted.rpt"/>
   <File Type="OPT-TIMING" Name="adder_display_timing_summary_opted.rpt"/>
   <File Type="PWROPT-DCP" Name="adder_display_pwropt.dcp"/>
@@ -32,14 +32,14 @@
   <File Type="ROUTE-BLACKBOX-DCP" Name="adder_display_routed_bb.dcp"/>
   <File Type="ROUTE-DRC" Name="adder_display_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="adder_display_drc_routed.pb"/>
-  <File Type="BG-BIN" Name="adder_display.bin"/>
   <File Type="ROUTE-DRC-RPX" Name="adder_display_drc_routed.rpx"/>
-  <File Type="BG-DRC" Name="adder_display.drc"/>
+  <File Type="BG-BIN" Name="adder_display.bin"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="adder_display_methodology_drc_routed.rpt"/>
-  <File Type="BITSTR-MSK" Name="adder_display.msk"/>
+  <File Type="BG-DRC" Name="adder_display.drc"/>
   <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="adder_display_methodology_drc_routed.rpx"/>
-  <File Type="BG-BGN" Name="adder_display.bgn"/>
+  <File Type="BITSTR-MSK" Name="adder_display.msk"/>
   <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="adder_display_methodology_drc_routed.pb"/>
+  <File Type="BG-BGN" Name="adder_display.bgn"/>
   <File Type="ROUTE-PWR" Name="adder_display_power_routed.rpt"/>
   <File Type="ROUTE-PWR-SUM" Name="adder_display_power_summary_routed.pb"/>
   <File Type="ROUTE-STATUS" Name="adder_display_route_status.rpt"/>
@@ -104,9 +104,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017">
-      <Desc>Default settings for Implementation.</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>

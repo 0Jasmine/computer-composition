@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Thu Apr  6 10:06:07 2023
+# Process ID: 3456
+# Current directory: C:/Users/Yeong_M/Desktop/computer composition/Experiment2_multiple/Experiment2_multiple.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source C:/Users/Yeong_M/Desktop/computer composition/Experiment2_multiple/Experiment2_multiple.sim/sim_1/behav/xsim.dir/tb_multiple_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Yeong_M/Desktop/computer composition/Experiment2_multiple/Experiment2_multiple.sim/sim_1/behav/webtalk.log
+# Journal file: C:/Users/Yeong_M/Desktop/computer composition/Experiment2_multiple/Experiment2_multiple.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Yeong_M/Desktop/computer -notrace
