@@ -1,0 +1,8 @@
+set_property IOSTANDARD LVCMOS33 [get_ports {ren[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {ren[0]}]
+set_property PACKAGE_PIN AC23 [get_ports {ren[1]}]
+set_property PACKAGE_PIN AD23 [get_ports {ren[0]}]
+set_property PACKAGE_PIN AD21 [get_ports {wen[3]}]
+set_property PACKAGE_PIN AD20 [get_ports {wen[2]}]
+set_property PACKAGE_PIN AE20 [get_ports {wen[1]}]
+set_property PACKAGE_PIN AE21 [get_ports {wen[0]}]
